@@ -1,7 +1,7 @@
 from delivery_function.function import Delivery
 import pytest
 
-@pytest.fixture()
+@pytest.fixture(scope='module')
 def calculator():
     return Delivery()
 
