@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5f6475-1b7e-41d4-afdd-c0dd90b27d42" name="Changes" comment="1.2 master commit">
-      <change afterPath="$PROJECT_DIR$/delivery_function/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_delivery_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery_function/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/delivery_function/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery_function/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/delivery_function/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_delivery_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_delivery_function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="task/YTT-2-cover_with_tests" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,13 +55,15 @@
     "Python tests.Python tests for test_delivery_function.test_delivery_function.executor": "Run",
     "Python tests.Python tests for test_delivery_function.test_delivery_function_correct.executor": "Run",
     "Python tests.Python tests for test_delivery_function.test_delivery_function_raises_errors.executor": "Run",
+    "Python tests.Python tests for test_delivery_function.test_delivery_function_wrong_load_level.executor": "Run",
+    "Python tests.Python tests for test_delivery_function.test_delivery_function_wrong_size.executor": "Run",
     "Python tests.Python tests for test_delivery_function.test_some_meaning.executor": "Run",
     "Python tests.Python tests in tests.executor": "Run",
     "Python.function.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "task/YTT-2-cover__with__tests"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,44 +72,7 @@
       <recent name="C:\Users\dermo\PycharmProjects\YandexTestTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_delivery_function.py">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="YandexTestTask" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/delivery_function" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/delivery_function/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_delivery_function.test_delivery_function" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="YandexTestTask" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_delivery_function.test_delivery_function&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_delivery_function.test_delivery_function_wrong_load_level">
     <configuration name="Python tests for test_delivery_function.test_delivery_function_correct" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="YandexTestTask" />
       <option name="ENV_FILES" value="" />
@@ -142,6 +103,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_delivery_function.test_delivery_function_wrong_load_level" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="YandexTestTask" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_delivery_function.test_delivery_function_wrong_load_level&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_delivery_function.test_delivery_function_wrong_size" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="YandexTestTask" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_delivery_function.test_delivery_function_wrong_size&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_delivery_function.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="YandexTestTask" />
       <option name="ENV_FILES" value="" />
@@ -159,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_delivery_function.test_delivery_function_wrong_load_level" />
+        <item itemvalue="Python tests.Python tests for test_delivery_function.test_delivery_function_wrong_size" />
         <item itemvalue="Python tests.Python tests in test_delivery_function.py" />
         <item itemvalue="Python tests.Python tests for test_delivery_function.test_delivery_function_correct" />
         <item itemvalue="Python tests.Python tests for test_delivery_function.test_delivery_function_raises_errors" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python tests.Python tests for test_delivery_function.test_delivery_function" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734899622567</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Covered with tests">
+      <option name="closed" value="true" />
+      <created>1734914528939</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734914528939</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +224,7 @@
     <MESSAGE value="First master commit" />
     <MESSAGE value="1.1 master commit" />
     <MESSAGE value="1.2 master commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2 master commit" />
+    <MESSAGE value="Covered with tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Covered with tests" />
   </component>
 </project>

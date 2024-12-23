@@ -25,20 +25,12 @@ def test_delivery_function_correct(calculator, distance, is_fragile, load_level,
     assert result == expected_result, f'{result = }, but {expected_result} expected'
 
 #We definitely can parametrize next two tests, but it will take more lines, then two separate tests
-# and decreases readability
-
 def test_delivery_function_wrong_load_level(calculator):
-    with pytest.raises(ValueError) as excinfo:
+    with pytest.raises(ValueError,
+                       match='Invalid load level invalid_load_level, valid levels are base, increased, high, extreme'):
         calculator.calculate_delivery_cost(40, False, 'invalid_load_level', 'large')
-    assert (str(excinfo.value) ==
-            'Invalid load level invalid_load_level, valid levels are base, increased, high, extreme'),\
-        (f'got {str(excinfo.value)}, '
-         '"Invalid load level invalid_load_level, valid levels are base, increased, high, extreme" expected')
 
 def test_delivery_function_wrong_size(calculator):
-    with pytest.raises(ValueError) as excinfo:
+    with pytest.raises(ValueError, match='Invalid size invalid_size, valid sizes are small, large'):
         calculator.calculate_delivery_cost(40, False, 'base', 'invalid_size')
-    assert (str(excinfo.value) ==
-            'Invalid size invalid_size, valid sizes are small, large'),\
-        (f'got {str(excinfo.value)}, '
-         '"Invalid size invalid_size, valid sizes are small, large" expected')
+
