@@ -2,8 +2,6 @@
 and converting them into dicts. There were no specific requirements for this particular task about it,
 so I imagine a situation, when config is dictionary already"""
 
-import pprint
-
 _delivery_config = \
     {
         "base_cost": 400.0,
@@ -30,8 +28,5 @@ _delivery_config = \
     }
 def get_config():
     return _delivery_config
-
-if __name__ == '__main__':
-    pprint.pprint(_delivery_config)
 
 
