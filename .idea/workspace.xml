@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e5f6475-1b7e-41d4-afdd-c0dd90b27d42" name="Changes" comment="Fixed something in tests">
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_configuration.py" afterDir="false" />
+    <list default="true" id="3e5f6475-1b7e-41d4-afdd-c0dd90b27d42" name="Changes" comment="Added small test_configuration.py and pytest.ini">
+      <change afterPath="$PROJECT_DIR$/delivery_function/test_one.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery_function/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/delivery_function/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,9 @@
     "Python tests.Python tests for test_delivery_function.test_delivery_function_wrong_load_level.executor": "Run",
     "Python tests.Python tests for test_delivery_function.test_delivery_function_wrong_size.executor": "Run",
     "Python tests.Python tests for test_delivery_function.test_some_meaning.executor": "Run",
+    "Python tests.Python tests for test_one.test_one.executor": "Run",
     "Python tests.Python tests in test_configuration.py.executor": "Run",
+    "Python tests.Python tests in test_delivery_function.py.executor": "Run",
     "Python tests.Python tests in tests.executor": "Run",
     "Python.function.executor": "Run",
     "Python.main (1).executor": "Run",
@@ -76,7 +77,7 @@
       <recent name="C:\Users\dermo\PycharmProjects\YandexTestTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_delivery_function.py">
+  <component name="RunManager" selected="Python tests.Python tests for test_one.test_one">
     <configuration name="Python tests for test_configuration.test_get_config" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="YandexTestTask" />
       <option name="ENV_FILES" value="" />
@@ -92,18 +93,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_delivery_function.test_delivery_function_wrong_load_level" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_one.test_one" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="YandexTestTask" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/delivery_function" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_delivery_function.test_delivery_function_wrong_load_level&quot;" />
+      <option name="_new_target" value="&quot;test_one.test_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_one.test_one" />
         <item itemvalue="Python tests.Python tests in test_delivery_function.py" />
         <item itemvalue="Python tests.Python tests in test_configuration.py" />
         <item itemvalue="Python tests.Python tests in tests" />
         <item itemvalue="Python tests.Python tests for test_configuration.test_get_config" />
-        <item itemvalue="Python tests.Python tests for test_delivery_function.test_delivery_function_wrong_load_level" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734941739153</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added small test_configuration.py and pytest.ini">
+      <option name="closed" value="true" />
+      <created>1734942709034</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734942709034</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +247,7 @@
     <MESSAGE value="1.2 master commit" />
     <MESSAGE value="Covered with tests" />
     <MESSAGE value="Fixed something in tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed something in tests" />
+    <MESSAGE value="Added small test_configuration.py and pytest.ini" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added small test_configuration.py and pytest.ini" />
   </component>
 </project>
